@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 // COLORS
-
 $ls-default-fg: #000;
 $ls-color-fg:   #FFF;
 
@@ -18,6 +17,7 @@ $ls-border-color: rgba(0,0,0,0.25);
 $ls-font-stack: 'Roboto', sans-serif;
 
 // MISC
-
+$ls-grid-columns: 12;
+$ls-grid-margin: 2px;
 
 // SIZES

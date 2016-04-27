@@ -1,0 +1,31 @@
+$ls-column-width: 100/$ls-grid-columns;
+$ls-column-count: $ls-grid-columns+1;
+
+@for $i from 1 to $ls-column-count
+{
+    $ls-column-width-tmp: $ls-column-width * $i;
+
+    .ls-grid-row #{"."}is-#{$i} {
+        width: $ls-column-width-tmp#{"vw"};
+        display: inline-flex;
+        margin-left: $ls-grid-margin;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+}
+
+.ls-grid-row {
+    display: flex !important;
+}
+
+@for $i from 1 to $ls-column-count
+{
+    .is-gapless #{"."}is-#{$i} {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+}
+.ls-grid-row:last-child {
+    margin-right: $ls-grid-margin;
+}
