@@ -1,3 +1,29 @@
 .ls-heading-1 {
-    font-size: 
+    font-size: $ls-h1-size;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.ls-heading-2 {
+    font-size: $ls-h1-size - 2;
+    margin-bottom: 8px;
+}
+.ls-heading-3 {
+    font-size: $ls-h1-size - 4;
+    margin-bottom: 8px;
+}
+.ls-heading-4 {
+    font-size: $ls-h1-size - 6;
+    margin-bottom: 8px;
+}
+.ls-heading-5 {
+    font-size: $ls-h1-size - 8;
+    margin-bottom: 8px;
+}
+.ls-heading-6 {
+    font-size: $ls-h1-size - 10;
+    margin-bottom: 8px;
+}
+
+.ls-heading-sub {
+    color: #555;
 }

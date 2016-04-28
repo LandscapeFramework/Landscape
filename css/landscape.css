@@ -52,87 +52,118 @@ table {
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset !important; }
 
+* {
+  font-family: 'Roboto', sans-serif !important; }
+
+.ls-heading-1 {
+  font-size: 28pt;
+  margin-bottom: 10px;
+  font-weight: bold; }
+
+.ls-heading-2 {
+  font-size: 26pt;
+  margin-bottom: 8px; }
+
+.ls-heading-3 {
+  font-size: 24pt;
+  margin-bottom: 8px; }
+
+.ls-heading-4 {
+  font-size: 22pt;
+  margin-bottom: 8px; }
+
+.ls-heading-5 {
+  font-size: 20pt;
+  margin-bottom: 8px; }
+
+.ls-heading-6 {
+  font-size: 18pt;
+  margin-bottom: 8px; }
+
+.ls-heading-sub {
+  color: #555; }
+
 .ls-grid-row .is-1 {
   width: 8.33333vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-2 {
   width: 16.66667vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-3 {
   width: 25vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-4 {
   width: 33.33333vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-5 {
   width: 41.66667vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-6 {
   width: 50vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-7 {
   width: 58.33333vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-8 {
   width: 66.66667vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-9 {
   width: 75vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-10 {
   width: 83.33333vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-11 {
   width: 91.66667vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
 .ls-grid-row .is-12 {
   width: 100vw;
   display: inline-flex;
-  margin-left: 2px;
+  margin-left: 4px;
   padding: 0px;
   box-sizing: border-box; }
 
@@ -188,4 +219,4 @@ input:-webkit-autofill {
   margin: 0px !important; }
 
 .ls-grid-row:last-child {
-  margin-right: 2px; }
+  margin-right: 4px; }
