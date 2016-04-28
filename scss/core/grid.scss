@@ -6,10 +6,9 @@ $ls-column-count: $ls-grid-columns+1;
     $ls-column-width-tmp: $ls-column-width * $i;
 
     .ls-grid-row #{"."}is-#{$i} {
-        width: $ls-column-width-tmp#{"vw"};
+        width: unquote('#{$ls-column-width-tmp}vw');
         display: inline-flex;
         margin-left: $ls-grid-margin;
-        padding: 0px;
         box-sizing: border-box;
     }
 
@@ -22,7 +21,6 @@ $ls-column-count: $ls-grid-columns+1;
 @for $i from 1 to $ls-column-count
 {
     .is-gapless #{"."}is-#{$i} {
-        padding: 0px !important;
         margin: 0px !important;
     }
 }
