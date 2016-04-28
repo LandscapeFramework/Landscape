@@ -6,7 +6,7 @@ $ls-column-count: $ls-grid-columns+1;
     $ls-column-width-tmp: $ls-column-width * $i;
 
     .ls-grid-row #{"."}is-#{$i} {
-        width: $ls-column-width-tmp#{"vw"};
+        width: unquote('#{$ls-column-width-tmp}vw');
         display: inline-flex;
         margin-left: $ls-grid-margin;
         box-sizing: border-box;
