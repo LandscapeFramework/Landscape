@@ -12,8 +12,8 @@ for (x = 0; x < temp.length; x++)
 function validate (pre)
 {
     var re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    if(!re.test(pre.path[0].value) && pre.path[0].value != "")
-        pre.path[0].className += " ls-input-error";
+    if(!re.test(this.value) && this.value != "")
+        this.className += " ls-input-error";
     else
-        pre.path[0].className = pre.path[0].className.replace( /(?:^|\s)ls-input-error(?!\S)/g , "");
+        this.className = this.className.replace( /(?:^|\s)ls-input-error(?!\S)/g , "");
 }
