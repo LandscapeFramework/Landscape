@@ -55,27 +55,33 @@ input:-webkit-autofill {
 * {
   font-family: 'Roboto', sans-serif !important; }
 
+.ls-content h1,
 .ls-heading-1 {
   font-size: 28pt;
   margin-bottom: 10px;
   font-weight: bold; }
 
+.ls-content h2,
 .ls-heading-2 {
   font-size: 26pt;
   margin-bottom: 8px; }
 
+.ls-content h3,
 .ls-heading-3 {
   font-size: 24pt;
   margin-bottom: 8px; }
 
+.ls-content h4,
 .ls-heading-4 {
   font-size: 22pt;
   margin-bottom: 8px; }
 
+.ls-content h5,
 .ls-heading-5 {
   font-size: 20pt;
   margin-bottom: 8px; }
 
+.ls-content h6,
 .ls-heading-6 {
   font-size: 18pt;
   margin-bottom: 8px; }

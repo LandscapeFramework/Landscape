@@ -1,24 +1,30 @@
+.ls-content h1,
 .ls-heading-1 {
     font-size: $ls-h1-size;
     margin-bottom: 10px;
     font-weight: bold;
 }
+.ls-content h2,
 .ls-heading-2 {
     font-size: $ls-h1-size - 2;
     margin-bottom: 8px;
 }
+.ls-content h3,
 .ls-heading-3 {
     font-size: $ls-h1-size - 4;
     margin-bottom: 8px;
 }
+.ls-content h4,
 .ls-heading-4 {
     font-size: $ls-h1-size - 6;
     margin-bottom: 8px;
 }
+.ls-content h5,
 .ls-heading-5 {
     font-size: $ls-h1-size - 8;
     margin-bottom: 8px;
 }
+.ls-content h6,
 .ls-heading-6 {
     font-size: $ls-h1-size - 10;
     margin-bottom: 8px;
